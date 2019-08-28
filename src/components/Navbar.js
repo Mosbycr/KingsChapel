@@ -24,16 +24,6 @@ function Navbar() {
                 Home
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                Features
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                Pricing
-              </a>
-            </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -44,20 +34,20 @@ function Navbar() {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Dropdown link
+                About Us
               </a>
               <div
                 class="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
                 <a class="dropdown-item" href="#">
-                  Action
+                  Our History
                 </a>
                 <a class="dropdown-item" href="#">
-                  Another action
+                  Current Staff
                 </a>
                 <a class="dropdown-item" href="#">
-                  Something else here
+                  Photo Gallery
                 </a>
               </div>
             </li>
