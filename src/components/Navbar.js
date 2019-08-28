@@ -43,7 +43,7 @@ function Navbar() {
                 <a class="dropdown-item" href="#">
                   Our History
                 </a>
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="/staff">
                   Current Staff
                 </a>
                 <a class="dropdown-item" href="#">
