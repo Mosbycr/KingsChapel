@@ -20,7 +20,7 @@ function Navbar() {
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="/">
                 Home
               </a>
             </li>
@@ -56,3 +56,5 @@ function Navbar() {
       </nav>
     );
 }
+
+export default Navbar;
