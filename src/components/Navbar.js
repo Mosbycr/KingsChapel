@@ -52,7 +52,7 @@ function Navbar() {
               </div>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="/contact">
                 Contact Us
               </a>
             </li>
