@@ -2,9 +2,9 @@ import React from 'react';
 
 function Navbar() {
     return (
-      <nav class="navbar navbar-expand">
+      <nav className="navbar navbar-expand-lg">
         <button
-          class="navbar-toggler"
+          className="navbar-toggler custom-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNavDropdown"
@@ -12,21 +12,21 @@ function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
         {/* <a class="navbar-brand" href="/">
           King's Chapel
         </a> */}
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="/">
+        <div className="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul className="navbar-nav ml-auto">
+            <li className="nav-item active">
+              <a className="nav-link" href="/">
                 Home
               </a>
             </li>
-            <li class="nav-item dropdown">
+            <li className="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle"
                 href="#"
                 id="navbarDropdownMenuLink"
                 role="button"
@@ -37,22 +37,22 @@ function Navbar() {
                 About Us
               </a>
               <div
-                class="dropdown-menu"
+                className="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
-                <a class="dropdown-item" href="/history">
+                <a className="dropdown-item" href="/history">
                   Our History
                 </a>
-                <a class="dropdown-item" href="/staff">
+                <a className="dropdown-item" href="/staff">
                   Current Staff
                 </a>
-                <a class="dropdown-item" href="#">
+                <a className="dropdown-item" href="#">
                   Photo Gallery
                 </a>
               </div>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="/contact">
+            <li className="nav-item active">
+              <a className="nav-link" href="/contact">
                 Contact Us
               </a>
             </li>
