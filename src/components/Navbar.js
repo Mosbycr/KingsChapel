@@ -14,9 +14,9 @@ function Navbar() {
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="/">
+        {/* <a class="navbar-brand" href="/">
           King's Chapel
-        </a>
+        </a> */}
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
