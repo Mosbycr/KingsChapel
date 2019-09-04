@@ -40,7 +40,7 @@ function Navbar() {
                 class="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="/history">
                   Our History
                 </a>
                 <a class="dropdown-item" href="/staff">
