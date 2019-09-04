@@ -51,6 +51,11 @@ function Navbar() {
                 </a>
               </div>
             </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">
+                Contact Us
+              </a>
+            </li>
           </ul>
         </div>
       </nav>
