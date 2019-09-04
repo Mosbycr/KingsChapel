@@ -2,10 +2,7 @@ import React from 'react';
 
 function Navbar() {
     return (
-      <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">
-          Navbar
-        </a>
+      <nav class="navbar navbar-expand">
         <button
           class="navbar-toggler"
           type="button"
@@ -17,8 +14,11 @@ function Navbar() {
         >
           <span class="navbar-toggler-icon"></span>
         </button>
+        <a class="navbar-brand" href="/">
+          King's Chapel
+        </a>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
               <a class="nav-link" href="/">
                 Home
