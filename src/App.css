@@ -27,7 +27,12 @@ body {
 .footer {
   background-color: gray;
   color: white;
-  position: fixed;
-  width: 100%;
+  position: absolute;
+  /* width: 100%; */
   bottom: 0;
 }
+
+/* .copyright {
+  align-content: center;
+  justify-content: center;
+} */
