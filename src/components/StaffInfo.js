@@ -4,7 +4,7 @@ function StaffInfoCard(props){
     return (
       <div>
         {props.churchStaff.map(person =>
-        <div className="card">
+        <div className="card" key={person.id}>
           <img src={person.image} className="card-img-top" alt="..." />
           <div className="card-body">
             <p className="card-text">Title: {person.job}</p>
