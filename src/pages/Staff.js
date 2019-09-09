@@ -5,10 +5,11 @@ import { staff } from '../data/staffList';
 class Staff extends Component {
     constructor(props) {
         super(props);
-        this.state = { ChurchStaff: staff }
+        this.state = { churchStaff: staff }
     }
 
     render() { 
+        console.log(this.state.churchStaff);
         return ( 
             <div className="container-fluid">
                 <div className="row">
@@ -17,7 +18,7 @@ class Staff extends Component {
                     </div>
                 </div>
                 <div className="row">
-                    <StaffInfoCard />
+                    <StaffInfoCard churchStaff = {this.state.churchStaff}/>
                 </div>
             </div>
         );

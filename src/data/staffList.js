@@ -3,13 +3,13 @@ export const staff = [
            id: 1,
            name: "Sally Price",
            job: "Pianist",
-           image: "https://unsplash.com/photos/utqJcneoFjo"
+           image: "/images/testImage.jpg"
          },
 
          {
            id: 2,
            name: "George Walsh",
            job: "Preacher",
-           image: "../images/testImage.jpg"
+           image: "/images/testImage.jpg"
          }
        ];
