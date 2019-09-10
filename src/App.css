@@ -20,8 +20,7 @@ body {
 
 .navbar {
   border-bottom: 1px solid #ffe8be;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding: 1rem 2rem;
 }
 
 .navbar-nav a{
