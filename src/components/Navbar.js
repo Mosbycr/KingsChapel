@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navbar() {
     return (
-      <nav className="navbar navbar-expand-lg bg-dark">
+      <nav className="navbar navbar-expand-lg">
         <button
           className="navbar-toggler custom-toggler"
           type="button"
@@ -15,7 +15,8 @@ function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand" href="/">
-          King's Chapel Presbyterian Church
+          <img src="/images/KCCross.PNG" width="60" height="70" class="d-inline-block align-top" alt=""></img>
+          <img src="/images/KCname.PNG" width="300" height="70" class="d-inline-block align-top" alt=""></img>          
         </a>
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav ml-auto">
