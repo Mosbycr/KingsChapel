@@ -10,6 +10,10 @@ body {
   font-family: Garamond, Century, 'Times New Roman', Times, serif;
 }
 
+.App {
+  color: #0c4794;
+}
+
 /* Navbar  */
 .custom-toggler.navbar-toggler {
     border-color: rgb(102, 199, 255);
@@ -30,11 +34,10 @@ body {
 
 /* Footer */
 .footer {
-  background-color: gray;
-  color: white;
   position: fixed;
-  /* width: 100%; */
   bottom: 0;
+  border-top: 1px solid #facc6d;
+  padding-top: 2rem;
 }
 
 /* Staff page */
