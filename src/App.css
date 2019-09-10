@@ -7,7 +7,7 @@
 body {
   height: 100%;
   width: 100%;
-  font-family: Georgia, Helvetica, Arial, serif;
+  font-family: Garamond, Century, 'Times New Roman', Times, serif;
 }
 
 /* Navbar  */
@@ -20,6 +20,13 @@ body {
 
 .navbar {
   border-bottom: 1px solid #ffe8be;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.navbar-nav a{
+  font-size: 20px;
+  color: #0c4794;
 }
 
 /* Footer */

@@ -22,7 +22,7 @@ function Navbar() {
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
               <a className="nav-link" href="/">
-                Home
+                HOME
               </a>
             </li>
             <li className="nav-item dropdown">
@@ -35,7 +35,7 @@ function Navbar() {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                About Us
+                ABOUT US
               </a>
               <div
                 className="dropdown-menu"
@@ -54,7 +54,7 @@ function Navbar() {
             </li>
             <li className="nav-item active">
               <a className="nav-link" href="/contact">
-                Contact Us
+                CONTACT US
               </a>
             </li>
           </ul>
