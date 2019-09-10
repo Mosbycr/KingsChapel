@@ -2,7 +2,7 @@ import React from 'react';
 
 function StaffInfoCard(props){
     return (
-      <div>
+      <div className="cardDeck">
         {props.churchStaff.map(person =>
         <div className="card" key={person.id}>
           <img src={person.image} className="card-img-top" alt="..." />
@@ -12,7 +12,7 @@ function StaffInfoCard(props){
             <p className="card-text">Contact: </p>
           </div>
         </div>
-        )};
+        )}
       </div>
     );
 }

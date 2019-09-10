@@ -34,7 +34,12 @@ body {
 
 
 /* Staff Info Cards */
-/* .card {
-  height: 300px;
-  width: 150px;
-} */
+.card {
+  /* height: 300px;
+  width: 400px; */
+  float: left;
+}
+
+.cardDeck {
+  margin: auto;
+}
