@@ -10,11 +10,6 @@ body {
   font-family: Georgia, Helvetica, Arial, serif;
 }
 
-.App {
-  /* padding-left: 10px;
-  padding-right: 10px; */
-}
-
 /* Navbar  */
 .custom-toggler.navbar-toggler {
     border-color: rgb(102, 199, 255);
@@ -32,14 +27,13 @@ body {
   bottom: 0;
 }
 
-
 /* Staff Info Cards */
 .card {
   /* height: 300px;
   width: 400px; */
   float: left;
-}
-
-.cardDeck {
-  margin: auto;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  border: none;
+  border: 1px dotted pink;
 }

@@ -2,7 +2,7 @@ import React from 'react';
 
 function StaffInfoCard(props){
     return (
-      <div className="cardDeck">
+      <div>
         {props.churchStaff.map(person =>
         <div className="card" key={person.id}>
           <img src={person.image} className="card-img-top" alt="..." />
