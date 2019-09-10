@@ -9,9 +9,8 @@ class Staff extends Component {
     }
 
     render() { 
-        console.log(this.state.churchStaff);
         return ( 
-            <div className="container">
+            <div className="container staffContainer">
                 <div className="row">
                     <div className="col-12 text-center">
                         <h3>Staff Directory</h3>

@@ -27,7 +27,11 @@ body {
   bottom: 0;
 }
 
-/* Staff Info Cards */
+/* Staff page */
+.staffContainer {
+  padding-bottom: 100px;
+}
+
 .card {
   /* height: 300px;
   width: 400px; */
