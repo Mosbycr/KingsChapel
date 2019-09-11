@@ -16,8 +16,8 @@ class Staff extends Component {
                         <h3>Staff Directory</h3>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col-lg-8 ml-auto mr-auto">
+                <div className="row d-flex justify-content-center">
+                    <div className="col-lg-8">
                     <StaffInfoCard churchStaff = {this.state.churchStaff}/>
                     </div>
                 </div>
