@@ -48,13 +48,14 @@ body {
 }
 
 /* Staff page */
-/* .staffContainer {
-  justify-content: center
-} */
+.staffContainer {
+  display: flex;
+  justify-content: center;
+}
 
 .card {
   float: left;
-  margin-left: 5px;
+  margin-left: 15px;
   margin-bottom: 5px;
   border: none;
   border: 1px dotted pink;
