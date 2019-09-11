@@ -14,9 +14,9 @@ function Navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="/">
-          <img src="/images/KCCross.PNG" width="60" height="70" class="d-inline-block align-top" alt=""></img>
-          <img src="/images/KCname.PNG" width="300" height="70" class="d-inline-block align-top" alt=""></img>          
+        <a className="navbar-brand" href="/">
+          <img src="/images/KCCross.PNG" width="60" height="70" className="d-inline-block align-top" alt=""></img>
+          <img src="/images/KCname.PNG" width="300" height="70" className="d-inline-block align-top" alt=""></img>          
         </a>
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav ml-auto">

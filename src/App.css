@@ -7,6 +7,8 @@
 body {
   height: 100%;
   width: 100%;
+  display: flex;
+  flex-direction: column;
   font-family: Garamond, Century, 'Times New Roman', Times, serif;
 }
 
@@ -16,10 +18,11 @@ body {
 
 /* Navbar  */
 .custom-toggler.navbar-toggler {
-    border-color: rgb(102, 199, 255);
+    border: 2px solid rgb(12,71,148);
 }
+
 .custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(250,204,109, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .navbar {
@@ -34,20 +37,19 @@ body {
 
 /* Footer */
 .footer {
-  position: fixed;
-  bottom: 0;
   border-top: 1px solid #facc6d;
   padding-top: 2rem;
+  background-color: white;
+  flex-shrink: 0;
 }
 
 /* Staff page */
 .staffContainer {
   padding-bottom: 100px;
+  flex: 1 0 auto;
 }
 
 .card {
-  /* height: 300px;
-  width: 400px; */
   float: left;
   margin-left: 5px;
   margin-bottom: 5px;
