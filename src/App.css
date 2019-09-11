@@ -44,10 +44,10 @@ body {
 }
 
 /* Staff page */
-.staffContainer {
+/* .staffContainer {
   padding-bottom: 100px;
   flex: 1 0 auto;
-}
+} */
 
 .card {
   float: left;
@@ -58,7 +58,10 @@ body {
 }
 
 /* Home page */
-.home {
+/* .home {
+} */
+
+.flexPadd {
   padding-bottom: 100px;
   flex: 1 0 auto;
 }

@@ -10,7 +10,7 @@ class Staff extends Component {
 
     render() { 
         return ( 
-            <div className="container staffContainer">
+            <div className="container flexPadd">
                 <div className="row">
                     <div className="col-12 text-center">
                         <h3>Staff Directory</h3>

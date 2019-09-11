@@ -2,7 +2,7 @@ import React from 'react';
 
 function Community(){
     return(
-        <div className="container-fluid community">
+        <div className="container-fluid flexPadd">
             community
         </div>
     )

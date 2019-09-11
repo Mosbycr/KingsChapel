@@ -2,7 +2,7 @@ import React from 'react';
 
 function Contact(){
     return (
-      <div className="container-fluid">
+      <div className="container-fluid flexPadd">
         <div className="row">
           <div className="col-lg-12 text-center">
             <h3>Contact Us</h3>
