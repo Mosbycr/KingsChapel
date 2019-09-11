@@ -44,11 +44,11 @@ function Navbar() {
                 <a className="dropdown-item" href="/history">
                   Our History
                 </a>
+                <a className="dropdown-item" href="/community">
+                  Our Community
+                </a>
                 <a className="dropdown-item" href="/staff">
                   Current Staff
-                </a>
-                <a className="dropdown-item" href="#">
-                  Photo Gallery
                 </a>
               </div>
             </li>

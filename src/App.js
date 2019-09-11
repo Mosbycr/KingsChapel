@@ -7,6 +7,7 @@ import History from "../src/pages/History";
 import Contact from "../src/pages/Contact";
 import Footer from "../src/components/Footer";
 import './App.css';
+import Community from "./pages/Community";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route exact path="/staff" component={Staff} />
           <Route exact path="/history" component={History}/>
           <Route exact path="/contact" component={Contact}/>
+          <Route exact path="/community" component={Community}/>
           <Footer />
       </div>
     </Router>
