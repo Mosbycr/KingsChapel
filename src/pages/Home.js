@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="home">
       <Jumbotron />
-      <div className="container-fluid">
+      <div className="container-fluid home">
         <div className="row">
           <div className="col-12"></div>
           <p>Hello</p>

@@ -56,3 +56,9 @@ body {
   border: none;
   border: 1px dotted pink;
 }
+
+/* Home page */
+.home {
+  padding-bottom: 100px;
+  flex: 1 0 auto;
+}
