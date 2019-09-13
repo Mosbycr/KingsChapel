@@ -7,14 +7,14 @@ function Images(){
           <div className="col-4">
             <img
               className="image"
-              src="/images/mainSide.JPG"
+              src="/images/front.JPG"
               alt="side photograph of King's Chapel main building"
             />
           </div>
           <div className="col-4">
             <img
               className="image"
-              src="/images/front.JPG"
+              src="/images/mainSide.JPG"
               alt="side photograph of King's Chapel main building"
             />
           </div>

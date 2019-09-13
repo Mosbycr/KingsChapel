@@ -68,11 +68,11 @@ body {
 }
 
 .image {
-  flex: 1;
   border: 2px solid #facc6d;;
   background-position: cover;
   max-height: 400px;
 }
+
 
 .flexPadd {
   padding-bottom: 100px;
