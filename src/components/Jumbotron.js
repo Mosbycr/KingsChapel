@@ -2,13 +2,30 @@ import React from 'react';
 
 function Jumbotron(){
     return (
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container-fluid">
-          <h1 class="display-4">Fluid jumbotron</h1>
-          <p class="lead">
-            This is a modified jumbotron that occupies the entire horizontal
-            space of its parent.
-          </p>
+      <div className="container-fluid imageContainer">
+        <div className="row d-flex">
+          <div className="col-4">
+            <img
+              className="image"
+              src="/images/mainSide.JPG"
+              alt="side photograph of King's Chapel main building"
+            />
+          </div>
+          <div className="col-4">
+            <img
+              className="image"
+              src="/images/front.JPG"
+              alt="side photograph of King's Chapel main building"
+            />
+          </div>
+
+          <div className="col-4">
+            <img
+            className="image"
+              src="/images/crossView.JPG"
+              alt="side photograph of King's Chapel main building"
+            />
+          </div>
         </div>
       </div>
     );
