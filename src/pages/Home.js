@@ -1,10 +1,10 @@
 import React from "react";
-import Jumbotron from "../components/Jumbotron";
+import Images from "../components/Images";
 
 function Home() {
   return (
     <div className="home">
-      <Jumbotron />
+      <Images />
       <div className="container-fluid flexPadd">
         <div className="row">
           <div className="col-12"></div>

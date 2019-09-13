@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Jumbotron(){
+function Images(){
     return (
       <div className="container-fluid imageContainer">
         <div className="row d-flex">
@@ -31,4 +31,4 @@ function Jumbotron(){
     );
 }
 
-export default Jumbotron;
+export default Images;
