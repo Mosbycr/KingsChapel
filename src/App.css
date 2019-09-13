@@ -61,17 +61,19 @@ body {
   border: 1px dotted pink;
 }
 
-/* Jumbotron */
+/* Home Page */
 .imageContainer {
  display: flex;
  flex-direction: column;
+ padding-left: 0;
 }
 
 .image {
   border: 2px solid #facc6d;;
   background-position: cover;
-  max-height: 400px;
+  max-height: 390px;
 }
+
 
 
 .flexPadd {
