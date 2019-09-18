@@ -34,11 +34,11 @@ function Home() {
         <div className="row pt-3">
           <div className="col-lg-12">
             <h3>Our Mission</h3>
-            <h4>We are called to be a people of God.</h4>
+            <h5>We are called to be a people of God:</h5>
             <p>The Scriptures and the daily proof of God's grace form the basis of the call to be God's people.</p>
-            <h4>We are called to be a people of God's love.</h4>
+            <h5>We are called to be a people of God's love:</h5>
             <p>King's Chapel is a friendly church family that gathers for fellowship and spiritual growth.</p>
-            <h4>We are called to be a people acting on God's word.</h4>
+            <h5>We are called to be a people acting on God's word:</h5>
             <p>We strive to enrich those around us by:
               <ul>
                 <li>showing God's love through personal example.</li>
