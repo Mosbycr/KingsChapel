@@ -17,18 +17,20 @@ function Contact(){
             <p>
               Address:
               <br />
-              King's Chapel Episcopal Church
+              King's Chapel Presbyterian Church
               <br />
-              Address info here
+              13346 West Patrick Henry Road <br />
+              Doswell, Virginia 23047
             </p>
-            <p>
-              Phone:
-              <br />
-              phone number here
-            </p>
+            <p>Phone: 804-883-5831</p>
             <p>
               Email: <br />
               email address here
+            </p>
+            <p>
+              Sunday Worship Hours: <br />
+              10:00 a.m. Sunday School <br />
+              11:00 a.m. Sunday Worship
             </p>
           </div>
         </div>
