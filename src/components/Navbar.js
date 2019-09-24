@@ -39,7 +39,7 @@ function Navbar() {
             </li>
             <li className="nav-item active">
               <a className="nav-link" href="/community">
-                Our Community
+                COMMUNITY
               </a>
             </li>
             <li className="nav-item active">

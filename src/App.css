@@ -7,7 +7,6 @@
 body {
   height: 100%;
   width: 100%;
-  
   font-family: Garamond, Century, 'Times New Roman', Times, serif;
 }
 
@@ -47,31 +46,22 @@ body {
   /* flex-shrink: 0; */
 }
 
-/* Staff page */
-.staffContainer {
-  display: flex;
-  justify-content: center;
-}
-
-.card {
-  float: left;
-  margin-left: 15px;
-  margin-bottom: 5px;
-  border: none;
-  border: 1px dotted pink;
-}
 
 /* Home Page */
 .imageContainer {
- display: flex;
- flex-direction: column;
- padding-left: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
 }
-
 .image {
   border: 2px solid #facc6d;;
   background-position: cover;
   max-height: 390px;
+  flex: 1;
+  flex-shrink: 5;
+  /* align-items: flex-start; */
 }
 
 
