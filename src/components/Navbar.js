@@ -15,8 +15,20 @@ function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <a className="navbar-brand" href="/">
-          <img src="/images/KCCross.PNG" width="60" height="70" className="d-inline-block align-top" alt=""></img>
-          <img src="/images/KCname.PNG" width="300" height="70" className="d-inline-block align-top" alt=""></img>          
+          <img
+            src="/images/KCCross.PNG"
+            width="60"
+            height="70"
+            className="d-inline-block align-top"
+            alt=""
+          ></img>
+          <img
+            src="/images/KCname.PNG"
+            width="300"
+            height="70"
+            className="d-inline-block align-top"
+            alt=""
+          ></img>
         </a>
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav ml-auto">
@@ -25,32 +37,10 @@ function Navbar() {
                 HOME
               </a>
             </li>
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdownMenuLink"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                ABOUT US
+            <li className="nav-item active">
+              <a className="nav-link" href="/community">
+                Our Community
               </a>
-              <div
-                className="dropdown-menu"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <a className="dropdown-item" href="/history">
-                  Our History
-                </a>
-                <a className="dropdown-item" href="/community">
-                  Our Community
-                </a>
-                <a className="dropdown-item" href="/staff">
-                  Current Staff
-                </a>
-              </div>
             </li>
             <li className="nav-item active">
               <a className="nav-link" href="/contact">
