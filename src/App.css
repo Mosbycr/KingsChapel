@@ -34,7 +34,6 @@ body {
 }
 
 /* Footer */
-
 .footerContainer {
   display: flex;
   flex-direction: column;
@@ -43,11 +42,9 @@ body {
   border-top: 1px solid #facc6d;
   padding-top: 2rem;
   background-color: white;
-  /* flex-shrink: 0; */
 }
 
-
-/* Home Page */
+/* Home Page Image Component */
 .imageContainer {
   display: flex;
   flex-wrap: nowrap;
@@ -61,12 +58,45 @@ body {
   max-height: 390px;
   flex: 1;
   flex-shrink: 5;
-  /* align-items: flex-start; */
 }
 
+/* home page */
+.home {
+   /* background-color: #fffdf8; */
+}
 
+h3 {
+  font-weight: bold;
+  font-size: 190%;
+}
+
+h5 {
+  text-align: center;
+  font-size: 120%;
+  padding-top: 2%;
+  font-style: italic;
+}
+
+h5::first-letter {
+  font-size: 120%;
+}
+
+p {
+  font-size: 115%;
+}
+
+.welcome::first-letter {
+  font-size: 200%;
+}
+
+#quote {
+  font-size: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+
+}
 
 .flexPadd {
   padding-bottom: 100px;
-  /* flex: 1 0 auto; */
 }
