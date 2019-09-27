@@ -5,7 +5,7 @@ function Community(){
       <div className="container flexPadd">
         <div className="row">
           <div className="col-lg-12">
-            <h3>A Caring Community of Faith</h3>
+            <h3 className="text-center pt-5">A Caring Community of Faith</h3>
             <h5>Worship Together</h5>
             <p>
               Worship is central to the life of King's Chapel. Each Sunday we
@@ -30,7 +30,7 @@ function Community(){
               <ul>
                 <li>Presbyterian Women: a monthly women's Bible study</li>
                 <li>Young Disciples: our monthly youth summer gathering</li>
-                <li>Summer Vacation Bible School: for childrens and adults</li>
+                <li>Summer Vacation Bible School: for children's and adults</li>
               </ul>
             </p>
             <h5>Serving Together</h5>
@@ -42,7 +42,7 @@ function Community(){
             <p>
               In our local community we support:
               <ul>
-                <li>the Central Viriginia Food Bank</li>
+                <li>the Central Virginia Food Bank</li>
                 <li>the Ashland Christian Emergency Services</li>
                 <li>the Ashland Convalescent Center</li>
                 <li>a family in need during the holidays</li>
@@ -56,7 +56,7 @@ function Community(){
                   Two Cents a Meal program
                 </li>
                 <li>
-                  ongoin global aid efforts such as sending baby blankets,
+                  ongoing global aid efforts such as sending baby blankets,
                   bandages and school supplies to children in need overseas.
                 </li>
               </ul>
