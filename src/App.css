@@ -51,18 +51,14 @@ body {
   align-items: flex-start;
   flex-direction: row;
   justify-content: center;
+  width: 100%;
 }
-.image {
+.image1,.image2,.image3 {
   border: 2px solid #facc6d;;
   background-position: cover;
   max-height: 390px;
   flex: 1;
   flex-shrink: 5;
-}
-
-/* home page */
-.home {
-   /* background-color: #fffdf8; */
 }
 
 .welcome::first-letter {
@@ -105,4 +101,35 @@ ul {
 
 .flexPadd {
   padding-bottom: 10%;
+}
+
+@media only screen and (max-width: 768px){
+  .image1,.image3 {
+    display: none;
+  }
+
+  .image2{
+    height: 300%;
+    width: 100%;
+  }
+
+  .imageContainer{
+    padding-left: 20px;
+  }
+
+  .navbarCross {
+    width: 30px;
+    height: 35px;
+  }
+
+  .navbarName {
+    width: 150px;
+    height: 35px;
+  }
+}
+
+@media only screen and (max-width: 1024px){
+  .image3 {
+    display: none;
+  }
 }

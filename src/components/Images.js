@@ -5,17 +5,17 @@ function Images(){
       <div className="container-fluid">
         <div className="row imageContainer">
             <img
-              className="image"
+              className="image1"
               src="/images/front.JPG"
               alt="side photograph of King's Chapel main building"
             />
             <img
-              className="image"
+              className="image2"
               src="/images/mainSide.JPG"
               alt="side photograph of King's Chapel main building"
             />
             <img
-            className="image"
+            className="image3"
               src="/images/crossView.JPG"
               alt="side photograph of King's Chapel main building"
             />

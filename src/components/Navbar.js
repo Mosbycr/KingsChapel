@@ -19,14 +19,14 @@ function Navbar() {
             src="/images/KCCross.PNG"
             width="60"
             height="70"
-            className="d-inline-block align-top"
+            className="d-inline-block align-top navbarCross"
             alt=""
           ></img>
           <img
             src="/images/KCname.PNG"
             width="300"
             height="70"
-            className="d-inline-block align-top"
+            className="d-inline-block align-top navbarName"
             alt=""
           ></img>
         </a>
