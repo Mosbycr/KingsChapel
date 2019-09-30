@@ -27,12 +27,12 @@ function Community(){
             </p>
             <p>
               We also offer activities such as:
+            </p>
               <ul>
                 <li>Presbyterian Women: a monthly women's Bible study</li>
                 <li>Young Disciples: our monthly youth summer gathering</li>
                 <li>Summer Vacation Bible School: for children's and adults</li>
               </ul>
-            </p>
             <h5>Serving Together</h5>
             <p>
               In answering God's call to be caring community of faith, King's
@@ -41,15 +41,16 @@ function Community(){
             </p>
             <p>
               In our local community we support:
+            </p>
               <ul>
                 <li>the Central Virginia Food Bank</li>
                 <li>the Ashland Christian Emergency Services</li>
                 <li>the Ashland Convalescent Center</li>
                 <li>a family in need during the holidays</li>
               </ul>
-            </p>
             <p>
               In the broader community we support:
+            </p>
               <ul>
                 <li>
                   World Vision hunger relief, One Great Hour of Sharing, and the
@@ -60,11 +61,11 @@ function Community(){
                   bandages and school supplies to children in need overseas.
                 </li>
               </ul>
-            </p>
             <h5>Rejoicing Together</h5>
             <p>
               One of the best things about King's Chapel is the time we spend
               together in fellowship and fun! <br/> We have:
+            </p>
               <ul>
                 <li>
                   frequent fellowship luncheons after Sunday worship services
@@ -73,7 +74,6 @@ function Community(){
                 <li>an annual Christmas dinner and program</li>
                 <li>an annual Easter Sunday country breakfast</li>
               </ul>
-            </p>
           </div>
         </div>
       </div>

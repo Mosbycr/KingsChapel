@@ -118,13 +118,14 @@ ul {
   }
 
   .navbarCross {
-    width: 30px;
-    height: 35px;
+    width: 50px;
+    height: 55px;
+    padding-left: 5px;
   }
 
   .navbarName {
-    width: 150px;
-    height: 35px;
+    width: 170px;
+    height: 55px;
   }
 }
 
