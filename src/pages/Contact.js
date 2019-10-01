@@ -8,7 +8,7 @@ function Contact() {
           <h3 className="pt-5 text-center">Contact Us</h3>
         </div>
       </div>
-      <div className="row">
+      <div className="row animated fadeInDown">
         <div className="col-lg-12">
           <p className="pt-4">
             <b>
