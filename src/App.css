@@ -51,7 +51,6 @@ body {
   align-items: flex-start;
   flex-direction: row;
   justify-content: center;
-  width: 100%;
 }
 .image1,.image2,.image3 {
   border: 2px solid #facc6d;;
@@ -111,10 +110,6 @@ ul {
   .image2{
     height: 300%;
     width: 100%;
-  }
-
-  .imageContainer{
-    padding-left: 20px;
   }
 
   .navbarCross {
