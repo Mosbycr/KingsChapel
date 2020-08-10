@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookSquare } from '@fortawesome//free-brands-svg-icons';
 
 function Footer(){
     return (
@@ -16,7 +18,15 @@ function Footer(){
             </div>
             <div className="col-4">
               <p className="copyright text-center pt-3">
-                &copy; 2019 King's Chapel Presbyterian Church
+                            &copy; 2019 King's Chapel Presbyterian Church
+                            <br />
+                            <aMa
+                                href="https://www.facebook.com/KingsChapelVA"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <FontAwesomeIcon icon={faFacebookSquare} /> Visit our Facebook page
+                            </a>
               </p>
             </div>
             <div className="col-4">
