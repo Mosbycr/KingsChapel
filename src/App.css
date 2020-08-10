@@ -44,6 +44,12 @@ body {
   background-color: white;
 }
 
+.fa {
+    font-family: Garamond, Century, 'Times New Roman', Times, serif;
+    color: #0c4794;
+    font-size: 115%;
+}
+
 /* Home Page Image Component */
 .imageContainer {
   display: flex;
