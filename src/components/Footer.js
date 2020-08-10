@@ -20,7 +20,7 @@ function Footer(){
               <p className="copyright text-center pt-3">
                             &copy; 2019 King's Chapel Presbyterian Church
                             <br />
-                            <a
+                            <aMa
                                 href="https://www.facebook.com/KingsChapelVA"
                                 target="_blank"
                                 rel="noopener noreferrer"
