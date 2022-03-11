@@ -18,7 +18,7 @@ function Footer(){
             </div>
             <div className="col-4">
               <p className="copyright text-center pt-3">
-                            &copy; 2019 King's Chapel Presbyterian Church
+                            &copy; 2022 King's Chapel Presbyterian Church
                             <br />
                             <a
                                 href="https://www.facebook.com/KingsChapelVA"

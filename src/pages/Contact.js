@@ -31,13 +31,13 @@ function Contact() {
             <b>
               <em>Email: </em>
             </b>{" "}
-            Preacher Durk Steed at {""}
+            Preacher Jim Kniseley at {""}
             <a
-              href="mailto:steedd@stcva.org"
+              href="mailto:james.c.kniseley@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              steedd@stcva.org
+              james.c.kniseley@gmail.com
             </a>
           </p>
 
