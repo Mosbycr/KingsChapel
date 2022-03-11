@@ -30,7 +30,7 @@
     "node-forge": "^1.0.0",
     "node-gyp": "^9.0.0",
     "node-notifier": "^8.0.1",
-    "node-sass": "^5.0.0",
+    "node-sass": "^7.0.0",
     "postcss": "^8.4.8",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
