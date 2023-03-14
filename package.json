@@ -49,7 +49,7 @@
     "typescript": "^3.2.1",
     "utf-8-validate": "^5.0.2",
     "vue-template-compiler": "^2.6.14",
-    "webpack": "^5.70.0",
+    "webpack": "^5.76.0",
     "webpack-hot-middleware": "^2.0.2",
     "webpack-plugin-ramdisk": "^0.2.0",
     "webpack-plugin-serve": "^1.6.0",
