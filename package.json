@@ -13,7 +13,7 @@
     "@swc/core": "^1.2.50",
     "@swc/wasm": "^1.2.50",
     "@types/webpack": "^4.0.0",
-    "ajv": "^8.10.0",
+    "ajv": "^8.18.0",
     "ajv-keywords": "^5.1.0",
     "animate.css": "^3.7.2",
     "ansi-regex": "^6.0.1",
