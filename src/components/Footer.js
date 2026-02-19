@@ -2,6 +2,8 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookSquare } from "@fortawesome//free-brands-svg-icons";
 
+let currentYear = new Date().getFullYear()
+
 function Footer() {
   return (
     <div className="footerContainer">
@@ -18,7 +20,7 @@ function Footer() {
           </div>
           <div className="col-4">
             <p className="copyright text-center pt-3">
-              &copy; 2026 King's Chapel Presbyterian Church
+                          &copy; {currentYear} King's Chapel Presbyterian Church
               <br />
               <a
                 href="https://www.facebook.com/KingsChapelVA"
