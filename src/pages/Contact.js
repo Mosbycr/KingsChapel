@@ -1,14 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
+
+const CONTACT_EMAIL = "abstills@henrico.k12.va.us";
 
 function Contact() {
+  const [showToast, setShowToast] = useState(false);
+
+  const handleEmailClick = (e) => {
+    e.preventDefault();
+    navigator.clipboard.writeText(CONTACT_EMAIL).then(() => {
+      setShowToast(true);
+      setTimeout(() => setShowToast(false), 3000);
+    });
+  };
+
   return (
     <div className="container text-center flexPadd">
+      {showToast && (
+        <div className="email-toast">Email copied to clipboard</div>
+      )}
       <div className="row">
         <div className="col-lg-12">
           <h3 className="pt-5 text-center">Contact Us</h3>
         </div>
       </div>
-      <div className="row animated slideInUp">
+      <div className="row">
         <div className="col-lg-12">
           <p className="pt-4">
             <b>
@@ -31,13 +46,13 @@ function Contact() {
             <b>
               <em>Email: </em>
             </b>{" "}
-            Preacher Jim Kniseley at {""}
+            Amy Stills (Clerk of Session) at{" "}
             <a
-              href="mailto:james.c.kniseley@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
+              href={`mailto:${CONTACT_EMAIL}`}
+              onClick={handleEmailClick}
+              style={{ cursor: "pointer" }}
             >
-              james.c.kniseley@gmail.com
+              {CONTACT_EMAIL}
             </a>
           </p>
 
