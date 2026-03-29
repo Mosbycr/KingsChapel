@@ -38,7 +38,7 @@
     "rework-visit": "^1.0.0",
     "sass-embedded": "^1.49.9",
     "sass-loader": "^12.6.0",
-    "serialize-javascript": "^7.0.3",
+    "serialize-javascript": "^7.0.5",
     "sockjs-client": "^1.4.0",
     "ts-node": "^9.0.0",
     "type-fest": "^0.17.0",
